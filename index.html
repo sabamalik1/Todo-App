@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/icon.png">
+                <div class="img2">
+                        <input type="Search"  id="input1" placeholder="What are you search in a list?" onkeyup="searchFun()">
+                        <a href="#"><i class="fa fa-search"></i></a>
+                    
+                </div>
+                
+            </h2>
+            
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">add</button>
+            </div>
+            <ul id="list-container">
+                
+            </ul>
+        </div>
+
+    </div>
+    <script src="script.js"> </script>
+    
+</body>
+</html>
